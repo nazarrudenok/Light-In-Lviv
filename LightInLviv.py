@@ -99,4 +99,4 @@ def text(message):
 		bot.send_message(message.chat.id, 'Є енергія: з 9:00 по 13:00 та з 21:00 по 1:00\nНемає енергії: з 5:00 по 9:00 та з 17:00 по 21:00\nМожливе відключення: з 1:00 по 5:00 та з 13:00 по 17:00')
 
 
- bot.polling(none_stop = True)
+bot.polling(none_stop = True)
